@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Amphibians</string>
+    <string name="connection_failed">Connection failed</string>
 </resources>
