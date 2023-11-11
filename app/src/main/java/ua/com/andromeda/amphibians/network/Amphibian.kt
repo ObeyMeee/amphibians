@@ -1,6 +1,6 @@
 package ua.com.andromeda.amphibians.network
 
-import kotlinx.serialization.SerialName
+import com.google.gson.annotations.SerializedName
 import kotlinx.serialization.Serializable
 
 @Serializable
@@ -9,6 +9,6 @@ data class Amphibian(
     val type: String,
     val description: String,
 
-    @SerialName("img_src")
+    @SerializedName("img_src")
     val imgSrc: String
 )
